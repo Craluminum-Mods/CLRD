@@ -1,0 +1,22 @@
+[
+    {
+        "ingredientPattern": "LL,LL,P_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-*", "name": "color", "skipVariants": ["plain"], "quantity": 2 },
+            "P": { "type": "block", "code": "game:planks-*-ns" }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "leather-{color}" }
+    },
+    {
+        "ingredientPattern": "LL,LL,P_",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-plain", "skipVariants": ["plain"], "quantity": 2 },
+            "P": { "type": "block", "code": "game:planks-*-ns" }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "game:leather" }
+    }
+]

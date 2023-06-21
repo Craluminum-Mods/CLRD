@@ -1,0 +1,11 @@
+{
+    "type": "code",
+    "modid": "clrd",
+    "name": "CLRD",
+    "description": "Colored variants for various blocks and items",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.18.0-*"
+    }
+}

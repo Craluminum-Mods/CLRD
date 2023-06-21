@@ -1,0 +1,26 @@
+{
+    "code": "quicklime",
+    "class": "CLRD.ItemName",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 }
+            }
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "color",
+            "states": ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow"]
+        }
+    ],
+    "texture": {
+        "base": "game:item/resource/quicklime",
+        "blendedOverlays": [{ "base": "game:block/liquid/dye/{color}", "blendMode": "Overlay" }]
+    },
+    "creativeinventory": { "general": ["*"], "items": ["*"], "clrd": ["*"] },
+    "maxstacksize": 64,
+    "materialDensity": 500
+}

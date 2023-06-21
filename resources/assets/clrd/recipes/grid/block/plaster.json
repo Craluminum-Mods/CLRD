@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "LS",
+    "ingredients": {
+        "L": { "type": "item", "code": "quicklime-*", "name": "color" },
+        "S": { "type": "block", "code": "game:sand-*" }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "plaster-{color}" }
+}

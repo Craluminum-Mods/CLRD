@@ -1,0 +1,36 @@
+{
+    "code": "cloth",
+    "class": "CLRD.BlockName",
+    "attributes": {
+        "canChisel": true
+    },
+    "variantgroups": [
+        {
+            "code": "color",
+            "states": ["black", "blue", "brown", "gray", "green", "orange", "pink", "plain", "purple", "red", "white", "yellow"]
+        }
+    ],
+    "shape": {
+        "base": "game:block/basic/cube",
+        "alternates": [{ "rotateY": 90 }, { "rotateY": 180 }, { "rotateY": 270 }, { "rotateX": 90 }, { "rotateX": 180 }, { "rotateX": 270 }, { "rotateZ": 90 }, { "rotateZ": 180 }, { "rotateZ": 270 }]
+    },
+    "textures": {
+        "all": { "base": "game:block/cloth/linen/{color}" }
+    },
+    "drawtype": "Cube",
+    "blockmaterial": "Cloth",
+    "creativeinventory": { "general": ["*"], "construction": ["*"], "clrd": ["*"] },
+    "replaceable": 700,
+    "resistance": 1.5,
+    "lightAbsorption": 99,
+    "combustibleProps": {
+        "burnTemperature": 400,
+        "burnDuration": 15
+    },
+    "sounds": {
+        "place": "game:block/cloth",
+        "break": "game:block/cloth",
+        "hit": "game:block/cloth"
+    },
+    "materialDensity": 400
+}

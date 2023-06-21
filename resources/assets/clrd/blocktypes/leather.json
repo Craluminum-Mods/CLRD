@@ -1,0 +1,39 @@
+{
+    "code": "leather",
+    "class": "CLRD.BlockName",
+    "attributes": {
+        "canChisel": true
+    },
+    "variantgroups": [
+        {
+            "code": "color",
+            "states": ["black", "blue", "gray", "green", "orange", "pink", "purple", "red", "white", "yellow"]
+        }
+    ],
+    "shape": {
+        "base": "game:block/basic/cube",
+        "alternates": [{ "rotateY": 90 }, { "rotateY": 180 }, { "rotateY": 270 }, { "rotateX": 90 }, { "rotateX": 180 }, { "rotateX": 270 }, { "rotateZ": 90 }, { "rotateZ": 180 }, { "rotateZ": 270 }]
+    },
+    "textures": {
+        "all": {
+            "base": "game:clrd/block/leather/normal",
+            "blendedOverlays": [{ "base": "game:block/liquid/dye/{color}", "blendMode": "Overlay" }]
+        }
+    },
+    "drawtype": "Cube",
+    "blockmaterial": "Cloth",
+    "creativeinventory": { "general": ["*"], "construction": ["*"], "clrd": ["*"] },
+    "replaceable": 700,
+    "resistance": 1.5,
+    "lightAbsorption": 99,
+    "combustibleProps": {
+        "burnTemperature": 400,
+        "burnDuration": 15
+    },
+    "sounds": {
+        "place": "game:block/leather",
+        "break": "game:block/leather",
+        "hit": "game:block/leather"
+    },
+    "materialDensity": 400
+}

@@ -1,0 +1,11 @@
+{
+    "ingredientPattern": "CP",
+    "ingredients": {
+        "C": { "type": "item", "code": "game:cloth-*", "name": "color", "skipVariants": ["mordant"] },
+        "P": { "type": "block", "code": "game:planks-*-ns" }
+    },
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "output": { "type": "block", "code": "cloth-{color}" }
+}

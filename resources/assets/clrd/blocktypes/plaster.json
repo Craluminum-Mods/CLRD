@@ -1,0 +1,38 @@
+{
+    "code": "plaster",
+    "class": "CLRD.BlockName",
+    "attributes": {
+        "canChisel": true
+    },
+    "variantgroups": [
+        {
+            "code": "color",
+            "states": ["black", "blue", "brown", "gray", "green", "orange", "pink", "purple", "red", "yellow"]
+        }
+    ],
+    "shape": {
+        "base": "game:block/stone/plaster",
+        "alternates": [{ "rotateY": 90 }, { "rotateY": 180 }, { "rotateY": 270 }, { "rotateX": 90 }, { "rotateX": 180 }, { "rotateX": 270 }, { "rotateZ": 90 }, { "rotateZ": 180 }, { "rotateZ": 270 }]
+    },
+    "textures": {
+        "all": {
+            "base": "game:block/stone/plaster/plain",
+            "blendedOverlays": [{ "base": "game:block/liquid/dye/{color}", "blendMode": "Overlay" }]
+        }
+    },
+    "blockmaterial": "Stone",
+    "creativeinventory": { "general": ["*"], "construction": ["*"], "clrd": ["*"] },
+    "replaceable": 200,
+    "resistance": 2.5,
+    "lightAbsorption": 99,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "sounds": {
+        "walk": "game:walk/stone"
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    }
+}

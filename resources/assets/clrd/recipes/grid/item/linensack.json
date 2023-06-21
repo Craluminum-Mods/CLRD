@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "T,L",
+    "ingredients": {
+        "T": { "type": "item", "code": "game:flaxtwine" },
+        "L": { "type": "item", "code": "game:cloth-*", "name": "color", "skipVariants": ["mordant"] }
+    },
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "linensack-{color}" }
+}

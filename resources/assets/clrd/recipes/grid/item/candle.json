@@ -1,0 +1,9 @@
+{
+    "ingredientPattern": "BBB",
+    "ingredients": {
+        "B": { "type": "item", "code": "beeswax-*", "name": "color" }
+    },
+    "width": 1,
+    "height": 3,
+    "output": { "type": "item", "code": "candle-{color}" }
+}
